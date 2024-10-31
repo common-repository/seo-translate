@@ -1,0 +1,209 @@
+/* 
+    Document   : seotranslate.css
+    Created on : Jul 9, 2011, 12:02:41 AM
+    Author     : Wott
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* admin styles */
+
+body.settings_page_seo-translate .wrap h3 {
+	font-weight:bold;
+}
+body.settings_page_seo-translate .wrap h3 .link {
+	font-weight:normal;
+	font-size:0.8em;
+}
+body.settings_page_seo-translate .right-panel {
+	display:block;
+    position:absolute;
+    right: 15px;
+    width:292px;
+}
+body.settings_page_seo-translate .langs {
+	display:block;
+	float:left;
+    width:70%;
+}
+body.settings_page_seo-translate .langs li {
+	display:block;
+	float:left;
+	width:30%;
+    line-height: 17px;
+    vertical-align: bottom;
+}
+body.settings_page_seo-translate .langs li * {
+    line-height: 17px;
+    vertical-align: middle;
+}
+body.settings_page_seo-translate .right-panel .about {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-top: 10px;
+}
+body.settings_page_seo-translate .right-panel .about h3 {
+    background-color: #ccc;
+    margin-top: 0;
+    padding: 3px 10px;
+}
+body.settings_page_seo-translate .right-panel .about .text {
+    padding: 0 10px 10px;
+}
+body.settings_page_seo-translate .optimize_input {
+    width:30em;
+}
+body.settings_page_seo-translate .optimize {
+    line-height: 30px;
+}
+body.settings_page_seo-translate .optimize a {
+    display:block;
+    text-decoration: none;
+    text-indent: -9999px;
+    width:30px;
+    height:30px;
+    float:left;
+}
+
+body.settings_page_seo-translate a.complete     {background-image: url('check.png') !important;}
+body.settings_page_seo-translate a.incomplete   {background-image: url('warning.png') !important;}
+
+
+/* user styles */
+#seotranslate_switcher_above.seotranslate_switcher {
+	z-index: 9999;
+	position: relative;
+}
+#seotranslate_switcher_above.seotranslate_switcher,
+#seotranslate_switcher_top.seotranslate_switcher,
+#seotranslate_switcher_bottom.seotranslate_switcher 
+{
+	width:100%;
+    font-weight: bold;
+    background-color: transparent;
+}
+#seotranslate_switcher_above.seotranslate_switcher a,
+#seotranslate_switcher_top.seotranslate_switcher a,
+#seotranslate_switcher_bottom.seotranslate_switcher a 
+{
+	margin:0 5px 0 0;
+	padding:0;
+	text-decoration:none;
+	text-indent: -9999px;
+	display:inline-block;
+    vertical-align: middle;
+	zoom:1;
+	width:16px;
+	height:11px;
+	line-height:inherit;
+    background: url('none') no-repeat center center transparent;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #seotranslate_switcher_above.seotranslate_switcher a,
+    #seotranslate_switcher_top.seotranslate_switcher a,
+    #seotranslate_switcher_bottom.seotranslate_switcher a 
+    {
+        vertical-align: top;
+        margin-top:0.3em;
+    }    
+}
+/*
+#seotranslate_switcher_above.seotranslate_switcher a.active_lang,
+#seotranslate_switcher_top.seotranslate_switcher a.active_lang,
+#seotranslate_switcher_bottom.seotranslate_switcher a.active_lang
+{
+	border:1px solid red;
+}
+#seotranslate_switcher_above.seotranslate_switcher a:hover,
+#seotranslate_switcher_top.seotranslate_switcher a:hover,
+#seotranslate_switcher_bottom.seotranslate_switcher a:hover
+{
+	border:1px solid blue;
+}
+*/
+#seotranslate_switcher_above.seotranslate_switcher {
+	border:1px solid gray;
+	text-align:center;
+}
+.seotranslate_widget_switcher {
+    font-weight: normal;
+}
+.seotranslate_widget_switcher a { 
+    display:inline;
+	margin:0 5px 0 0;
+	padding:0;
+    text-decoration: none;
+    vertical-align: middle;
+	zoom:1;
+}
+.seotranslate_widget_switcher a.seotranslate_flag { 
+    padding-left: 20px; 
+    background: url('none') no-repeat left center transparent;
+}
+.seotranslate_widget_switcher a.active_lang {
+    color:gray;
+}
+
+div.seotranslate_footer {
+    display:block;
+    clear:both;
+    padding:0;
+    margin:0;
+    border:0 none;
+    height:140px;
+    width:100%;
+    background: url('badge.png') no-repeat center center;
+}
+a.seotranslate_footer {
+    display:block;
+    text-decoration: none;
+    text-indent: -9999px;
+    height:200px;
+    width:50%;
+    float:left;
+}
+
+
+
+.seotranslate_switcher a.seotranslate_flag-ar     { background-image: url('flags/ar.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-bg     { background-image: url('flags/bg.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ca     { background-image: url('flags/ca.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-cs     { background-image: url('flags/cs.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-da     { background-image: url('flags/da.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-de     { background-image: url('flags/de.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-el     { background-image: url('flags/el.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-en     { background-image: url('flags/en.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-en-GB  { background-image: url('flags/en-GB.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-es     { background-image: url('flags/es.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-et     { background-image: url('flags/et.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-fi     { background-image: url('flags/fi.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-fr     { background-image: url('flags/fr.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-he     { background-image: url('flags/he.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ht     { background-image: url('flags/ht.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-hu     { background-image: url('flags/hu.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-id     { background-image: url('flags/id.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-it     { background-image: url('flags/it.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ja     { background-image: url('flags/ja.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ko     { background-image: url('flags/ko.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-lt     { background-image: url('flags/lt.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-lv     { background-image: url('flags/lv.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-nl     { background-image: url('flags/nl.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-no     { background-image: url('flags/no.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-pl     { background-image: url('flags/pl.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-pt     { background-image: url('flags/pt.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ro     { background-image: url('flags/ro.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-ru     { background-image: url('flags/ru.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-sk     { background-image: url('flags/sk.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-sl     { background-image: url('flags/sl.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-sv     { background-image: url('flags/sv.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-th     { background-image: url('flags/th.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-tr     { background-image: url('flags/tr.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-uk     { background-image: url('flags/uk.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-vi     { background-image: url('flags/vi.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-zh-CHS { background-image: url('flags/zh-CHS.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-zh-CHT { background-image: url('flags/zh-CHT.png') !important; }
+.seotranslate_switcher a.seotranslate_flag-hi     { background-image: url('flags/hi.png') !important; }
+
+.hide{
+	display:none;
+}
